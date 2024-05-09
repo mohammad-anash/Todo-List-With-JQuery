@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "averta cy w10";
+  background-color: #212121;
+  color: white;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+button {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.store-add {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.new-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
